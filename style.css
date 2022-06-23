@@ -1,0 +1,28 @@
+body {
+  background-color: #282c34;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+.adding {
+  background-color: rgb(92, 236, 152);
+}
+.removeing {
+  background-color: rgb(236, 92, 104);
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: 0px;
+  border: none;
+}
+button:active {
+  transform: scale(0.97);
+}
